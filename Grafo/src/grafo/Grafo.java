@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Grafo {
 	private int n; // número de vértices
 
-	private ArrayList<ArrayList<Integer>> grafo; // constituição do grafo
+	private ArrayList<ArrayList<Integer>> grafo; // lista de lista de vérices que representam o grafo
 
 	public Grafo() {
 
@@ -27,13 +27,13 @@ public class Grafo {
 		this.grafo = grafo;
 	}
 
-	public boolean isGrafoEuler() { // verificação se o grau do grafo é par.
+	public boolean isGrafoEuler() { // verificação se o grau do grafo é par
 		if (n == 0 || grafo == null) {
 			return false;
 		}
 
 		for (int i = 0; i < n; i++) {
-			if (this.grafo.get(i).size() % 2 != 0) {
+			if (this.grafo.get(i).size() % 2 != 0) { //se o tamanho de determinada lista de vértices for impar o grafo não é euleriano
 				return false;
 			}
 
@@ -47,7 +47,7 @@ public class Grafo {
 		}
 
 		for (int i = 0; i < n; i++) {
-			if (this.grafo.get(i).size() < 2) {
+			if (this.grafo.get(i).size() < 2) { //se não for conexo não pode ser euleriano
 				return false;
 			}
 

@@ -38,11 +38,11 @@ public class Main {
 				System.out.println("O grafo introduzido é euleriano");
 
 			}else {
-				System.out.println("O grafo introduzido não é euleriano");
+				System.out.println("O grafo introduzido não é euleriano pois o grau dos vértices não é par");
 			}
 
 		}else {
-		System.out.println("O grafo introduzido não é euleriano");
+		System.out.println("O grafo introduzido não é euleriano porque não é conexo");
 		}
 		ler.close();
 	}

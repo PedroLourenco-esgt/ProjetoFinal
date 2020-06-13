@@ -1,13 +1,13 @@
 # ProjetoFinal
-ExecuÃ§Ã£o do Projeto Final para a disciplina de Linguagens de ProgramaÃ§Ã£o
+Execução do Projeto Final para a disciplina de Linguagens de Programação
 
 Tema: Teorema de Euler
 
 Membros do Grupo: 
 
-Diogo ProenÃ§a nÂº 190100156 
+Diogo Proença nº 190100156 
 
-Pedro LourenÃ§o nÂº 190100117
+Pedro Lourenço nº 190100117
 
 
 "Como introduzir um grafo"
